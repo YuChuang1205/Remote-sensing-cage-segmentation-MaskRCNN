@@ -14,6 +14,21 @@ paper: **Segmentation and density statistics of mariculture cages from remote se
 "logs" is the folder that generates the trained model.
 
 
+Operating environment: 
+keras 2.1.6   
+tensorflow-gpu 1.15.0
+h5py 2.10.0  
+numpy  
+scipy  
+pillow  
+cython  
+matplotlib  
+scikit-image  
+opencv-python  
+imgaug  
+IPython  
+
+
 
 Before training the model, you should add the pre-training weight parameter file "mask_rcnn_coco.h5", 
 create a folder named "test_result" and "logs" under this project.
